@@ -1,0 +1,52 @@
+Question
+-----------
+read the input file (file01.txt).
+calculate the balance of your money
+print the result on the output file for name, age and new balance
+apply modular programming with 2 functions
+(at least 1 function with passing and return values)
+
+file01.txt  (name of the student, age, money, expenses)
+---------------------
+ahmad      21  1290.00  90.12
+ali        22  30000.00 234.23
+abu        45  230.00   12.00
+junainah   46  5000.00  134.00 
+hariharan  21  100000.00 2345.00
+
+---------------------
+
+submit before monday before 9 am 23 July 2020. (only for those who attend the class on 22 July 2020)
+
+some guides
+------------
+for (i=0;i<5;i++)
+{
+   fscanf(red,"%s %d  %f ",&name[i], &age[i], &amount[i]);   // read the data from input file
+   printf("%s %d  %.2f ",name[i], age[i], amount[i]);     //output on the screen
+   fprintf(fouput, "%s %d  %.2f ",name[i], age[i], amount[i]);    // output in the foutput file
+}
+
+marking scheme
+--------------
+file variable
+- input file  /0.5m
+- output file /0.5m
+
+variable for the data /1m
+
+Open file
+- input file /1.5m
+- output file /1.5m
+
+Read data from file  /2m
+looping  /2m
+formula to calculate the balance /3m
+
+function #1 - /3m
+function #2 - /2m
+write data to a file  /2m
+
+close file
+- input file   /0.5m
+- output file  /0.5m
